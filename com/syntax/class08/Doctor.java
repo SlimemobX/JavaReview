@@ -5,8 +5,12 @@ public class Doctor {
 	public String specialty;
 	public int licenseId;
 	
-	public Doctor(String name, String specialty, int licenseId) {
+	public Doctor(String name) {
 		this.name = name;
+	}
+	
+	public Doctor(String name, String specialty, int licenseId) {
+		this(name);
 		this.specialty = specialty;
 		this.licenseId = licenseId;
 		
