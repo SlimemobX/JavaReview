@@ -11,8 +11,23 @@ public class TestMath extends Math{
 		
 		// how can we access multiply method w/o creating an object or w/o using class name?? 
 		
-		int product = multiply(12,4);
-		System.out.println(product);
+//		int product=multiply(12,  4);
+//		
+//		System.out.println(product);
+		
+		
+//		double d=multiply(15,  4.4);
+//		
+//		double d1=d+25;
+//		
+//		System.out.println(d);
+		
+//		double d2=multiply(4.6,  5);
+
+		
+		
+		
+		
 		
 		// can we change access modifiers while overloading? ---> yes
 		// can we overload Private methods?

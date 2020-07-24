@@ -3,7 +3,7 @@ package com.syntax.class09;
 public class Square extends Shape{
 	
 	// we created a class and define and implement some methods
-	// we created other class ---> square and rectangle ---> and extend them to the first class
+	// we created other class ---> square and rectangle ---> and extend them to the first class (Shape class)
 
 	int length;
 	public Square(int length) {

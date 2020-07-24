@@ -10,7 +10,7 @@ public class Student extends School{
 	}
 	
 	void study() {
-		System.out.println(name + " " + lastName + "Student Id is: " + stuID);
+		System.out.println(name + " " + lastName + " studies at: " + schoolName);
 	}
 
 	
@@ -20,7 +20,9 @@ public class Student extends School{
 	
 	// can we overload a method?
 	// overloading ---> different implementation of a method inside the same class
-	// overriding ---> different implementation of a method inside a different class
+			// playing with arguments
+	
+	// overriding ---> different implementation of a method inside a different class (child class)
 
 	// 1. we define and implement a method inside a class
 	// 2. Create another class and extend it to the first class

@@ -7,7 +7,7 @@ public class MethodsOverloading {
 	
 	// static bonding ---> compile time polymorphism ---> method overloading
 	
-	// diferent implementation of a method or constructor inside the same class
+	// different implementation of a method or constructor inside the same class
 	
 	
 	// 1. change the type of parameter
@@ -46,7 +46,7 @@ public class MethodsOverloading {
 	}
 	
 	
-	// we cannot overload a method by changing 
+	// we cannot overload a method by changing the order of parameters if both parameters have same type
 //	public void method(String str2, String str1) {
 //		System.out.println("I am a method with two String parameter");
 //

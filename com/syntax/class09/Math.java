@@ -26,8 +26,8 @@ public class Math {
 	
 	// 3. changing the order of parameters
 	
-	public static double multiply(double a, int b) {
-		return a*b;
+	public static void multiply(double a, int b) {
+		System.out.println(a + " * " + b +" = " + (a*b));
 	}
 	
 	
